@@ -1,15 +1,15 @@
 <script>
     let installationSteps = [
         "Install Node.js",
-        "Run `npm create svelte@latest my-svelte-app`",
+        "Run `npx sv create lab10c`",
         "Install dependencies with `npm install`",
         "Start the development server with `npm run dev -- --open`"
     ];
 
     let challenges = [
         {
-            issue: "Understanding SvelteKit's file-based routing.",
-            solution: "Followed the official documentation and worked on small examples."
+            issue: "Understanding SvelteKit.",
+            solution: "Followed the official documentation while working on this project."
         },
         {
             issue: "Configuring hosting on Vercel.",
@@ -31,11 +31,11 @@
     }
 
     h1, h2 {
-        color: #2c3e50;
+        color: black;
     }
 
     .code {
-        background-color: #f4f4f4;
+        background-color: #f0f0f0;
         padding: 10px;
         border-left: 4px solid #2c3e50;
         margin-bottom: 20px;
@@ -51,24 +51,24 @@
     }
 </style>
 
-<div class="container">
-    <h1>Building This Webpage with SvelteKit</h1>
-    <p>This webpage was built using SvelteKit, a modern web development framework. Here's how it was done:</p>
+    <div class="container">
+        <h1>Building This Webpage with SvelteKit</h1>
+        <p>This webpage was built using the SvelteKit development framework.</p>
 
-    <h2>Installation Steps</h2>
-    <ul>
-        {#each installationSteps as step}
-            <li>{step}</li>
-        {/each}
-    </ul>
+        <h2>Installation Steps</h2>
+        <ul>
+            {#each installationSteps as step}
+                <li>{step}</li>
+            {/each}
+        </ul>
 
-    <h2>Challenges and Solutions</h2>
-    <div>
-        {#each challenges as { issue, solution }}
-            <div class="code">
-                <strong>Issue:</strong> {issue} <br />
-                <strong>Solution:</strong> {solution}
-            </div>
-        {/each}
+        <h2>Challenges and Solutions</h2>
+        <div>
+            {#each challenges as { issue, solution }}
+                <div class="code">
+                    <strong>Issue:</strong> {issue} <br />
+                    <strong>Solution:</strong> {solution}
+                </div>
+            {/each}
+        </div>
     </div>
-</div>
