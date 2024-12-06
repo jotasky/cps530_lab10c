@@ -29,7 +29,7 @@
         margin-bottom: 10px;
     }
 </style>
-
+<body>
     <div class="container">
         <h1>Building This Webpage with SvelteKit</h1>
         <p>This webpage was built using the SvelteKit development framework.</p>
@@ -56,3 +56,4 @@
             </div>
         </div>
     </div>
+</body>
