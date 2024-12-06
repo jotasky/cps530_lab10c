@@ -20,19 +20,28 @@
         margin-bottom: 20px;
     }
 
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
 </style>
-<body>
+
     <div class="container">
         <h1>Building This Webpage with SvelteKit</h1>
         <p>This webpage was built using the SvelteKit development framework.</p>
 
         <h2>Installation Steps</h2>
-        <p>
-            "Install Node.js",
-            "Run `npx sv create lab10c`",
-            "Install dependencies with `npm install`",
-            "Start the development server with `npm run dev -- --open`"
-        </p>
+        <ul>
+            <li>Install Node.js</li>
+            <li>Run `npx sv create lab10c` in terminal</li>
+            <li>Install dependencies with `npm install`</li>
+            <li>Start the development server with `npm run dev -- --open`</li>
+
+        </ul>
 
         <h2>Challenges and Solutions</h2>
         <div>
@@ -47,4 +56,3 @@
             </div>
         </div>
     </div>
-</body>
