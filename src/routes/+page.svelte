@@ -8,8 +8,8 @@
 
     let challenges = [
         {
-            issue: "Understanding SvelteKit.",
-            solution: "Followed the official documentation while working on this project."
+            issue: "Understanding SvelteKit as well as how development frameworks work.",
+            solution: "Watched tutorials on YouTube as well as following the official documentation while working on this project."
         },
         {
             issue: "Configuring hosting on Vercel.",
@@ -35,9 +35,8 @@
     }
 
     .code {
-        background-color: #f0f0f0;
+        background-color: #dfdfdf;
         padding: 10px;
-        border-left: 4px solid #2c3e50;
         margin-bottom: 20px;
     }
 
